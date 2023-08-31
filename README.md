@@ -1,8 +1,27 @@
-## Resume of Yifan Wang
+## Personal Resume of Wang Yifan (PlanD)
 
-Hi, this is the repository for my **personal resume**! I'll update the latest personal experience to this repo in time. The resume template is forked from [sb2nov/resume](https://github.com/sb2nov/resume).
+Hello, welcome to my **personal resume** page! I will consistently update my latest personal experiences in this repository. This project is based on the template by [sb2nov/resume](https://github.com/sb2nov/resume).
 
-My English resume link is here: [YifanWang.pdf](./YifanWang_full_latest.pdf).
+For a detailed English version of my resume, please refer to:
+
+> [**YifanWang.pdf**](./YifanWang_full_latest.pdf)
+
+If you find it too lengthy, you can also take a look at my personal introduction here.
+
+I pursued both my undergraduate and graduate studies at Tsinghua University, spanning from 2017 to 2024. Starting from 2019, I decided to become a programmer, exploring various directions over these years.
+
+- **Programming Skills**: I excel in multiple programming languages, particularly proficient in Python and familiar with C++, NodeJS/Typescript, Rust, and more. I use these languages to tackle algorithmic problems and maintain a concise and clear coding style in project development. Furthermore, I am **adept at quickly learning and picking up new programming languages**.
+
+- **Data Science**: Data science was once my major focus. I have taken a range of courses covering traditional machine learning to large-scale language models, undertaking small projects in various fields of computer vision and natural language processing. I've also gone through the entire process of traditional internet project flow, from data scraping, cleaning, analysis, to setting up indexes, databases, and web development.
+
+- **Published Papers**: In 2021, a friend and I collaborated on a paper titled [Back to Reality](https://www.researchgate.net/publication/359156581_Back_to_Reality_Weakly-supervised_3D_Object_Detection_with_Shape-guided_Label_Enhancement), which was published in CVPR 2022. Due to some academic disputes, I ended up being a second author in the final submission stage. The GitHub repository for this work can be found at [wyf-ACCEPT/BackToReality](https://github.com/wyf-ACCEPT/BackToReality). It was during this time that I decided to transition away from academic research.
+
+- **Web3 Skills**: Towards the end of 2021, I began working on blockchain-related projects. I've conducted on-chain data analysis on platforms such as Dune, [Footprint](https://www.footprint.network/@planD/Try-2#type=dashboard), and [Sentio](https://app.sentio.xyz/meson/cross-chain-bridges/dashboards/Isf1Eyp4). I've participated in several related Ask-Me-Anything (AMA) sessions. Applying my research skills, I authored numerous articles on platforms like [Mirror](https://mirror.xyz/0xb54e978a34Af50228a3564662dB6005E9fB04f5a), [Medium](https://mirror.xyz/0xb54e978a34Af50228a3564662dB6005E9fB04f5a), and [Techflow](https://www.techflowpost.com/article/detail_10075.html). During my investment research role at IVC, I produced over 40 investment research reports. Moreover, I contributed as a core member in the development of the [WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) project.
+
+- **Smart Contract Development**: Starting from mid-2022, my interest in smart contract development led me to learn Solidity, Move, Rust, and other contract-oriented programming languages. I **independently** developed four on-chain contracts for the cross-chain bridge [MesonFi](https://meson.fi/zh), including the [Algorand contract](https://github.com/wyf-ACCEPT/meson-contract-algorand), [Aptos contract](https://github.com/MesonFi/meson-contracts-aptos), [Sui contract](https://github.com/wyf-ACCEPT/meson-contracts-sui), and [Solana-Rust contract](https://github.com/wyf-ACCEPT/meson-contracts-solana). Throughout this journey, I gained extensive knowledge, dedicating **more than a year** (approximately from July 2022 to September 2023).
+
+- **ZKML**: I also contemplated how to integrate my prior data science knowledge with Web3. Fortunately, I discovered the field of Zero-Knowledge Machine Learning (ZKML), which focuses on using zero-knowledge proofs to validate the integrity of machine learning models. Consequently, I shifted my master's research topic to this field. This decision led me to study foundational mathematics in cryptography and abstract algebra, deeply engaging with the principles of ZK-Snark Groth16.
+
 
 ---
 
@@ -13,7 +32,7 @@ My English resume link is here: [YifanWang.pdf](./YifanWang_full_latest.pdf).
 
 中文详细简历请参见：
 
-> [<h2 style="font-size:24px;">汪一帆.pdf<h2>](./汪一帆-full-latest.pdf)
+> [**汪一帆.pdf**](./汪一帆-full-latest.pdf)
 
 如果你认为它过于冗长，也可以在这里看看我的个人简介。
 
