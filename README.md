@@ -6,7 +6,20 @@ For a detailed English version of my resume, please refer to:
 
 > [**YifanWang.pdf**](./YifanWang_full_latest.pdf)
 
-If you find it too lengthy, you can also take a look at my personal introduction here.
+---
+
+## 汪一帆的个人简历
+
+Hi，这里是我的**个人简历**页面！我会及时将最新的个人经历更新到这个仓库中。这个项目借用了 [sb2nov/resume](https://github.com/sb2nov/resume) 作为模板。
+
+中文详细简历请参见：
+
+> [**汪一帆.pdf**](./汪一帆-full-latest.pdf)
+
+---
+## Personal story/experience in one page
+
+If you find the resume is too lengthy, you can also take a look at my personal introduction here.
 
 I pursued both my undergraduate and graduate studies at Tsinghua University, spanning from 2017 to 2024. Starting from 2019, I decided to become a programmer, exploring various directions over these years.
 
@@ -25,14 +38,7 @@ I pursued both my undergraduate and graduate studies at Tsinghua University, spa
 
 ---
 
-## 汪一帆的个人简历
-
-
-你好，这里是我的**个人简历**页面！我会及时将最新的个人经历更新到这个仓库中。这个项目借用了 [sb2nov/resume](https://github.com/sb2nov/resume) 作为模板。
-
-中文详细简历请参见：
-
-> [**汪一帆.pdf**](./汪一帆-full-latest.pdf)
+## 个人经历及成长历程
 
 如果你认为它过于冗长，也可以在这里看看我的个人简介。
 
