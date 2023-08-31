@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+% \usepackage[T1]{fontenc}
+
+
+% 定义布尔变量
+\newif\ifchinese
+% 将变量初始化为 true，以启用中文模式
+\chinesetrue
+
+\ifchinese
+  % 如果变量为 true，使用中文设置
+  \usepackage[UTF8]{ctex}
+\else
+  % 如果变量为 false，使用英文设置
+  \usepackage{lipsum}
+\fi
+
+\begin{document}
+
+\ifchinese
+  这是中文内容。
+\else
+  This is English content. 
+\fi
+
+\section{Introduction}
+
+\ifchinese
+  欢迎使用 LaTeX。
+\else
+  Welcome to LaTeX.
+\fi
+
+\section{Content}
+
+\ifchinese
+  这是一些中文内容。在中文模式下，您可以使用 ctex 宏包支持中文排版。
+\else
+  \lipsum[1-2]
+\fi
+
+\end{document}

@@ -1,0 +1,388 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{setspace}
+% \input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% \setlength{\footskip}{4.08003pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+% \pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutColon}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[2]{
+  \vspace{0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small#2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{1pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newif\ifchinese
+% 将变量初始化为 true，以启用中文模式
+\chinesetrue
+
+\ifchinese
+  % 如果变量为 true，使用中文设置
+  \usepackage[UTF8]{ctex}
+    \linespread{1.1}    % 设置中文时的行间距
+\else
+  % 如果变量为 false，使用英文设置
+  \usepackage{lipsum}
+    \linespread{1.2}    % 设置英文时的行间距
+\fi
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\ifchinese
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large 汪一帆}} & 邮箱 : \href{mailto:importwyf@gmail.com}{importwyf@gmail.com}\\
+  1999.06 & 手机 : \href{tel:(+86)13683578362}{136 8357 8362} \\
+\end{tabular*}
+\else
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : \href{tel:+11234567890}{+1-123-456-7890} \\
+\end{tabular*}
+\fi
+
+
+
+%-----------EDUCATION-----------------
+\ifchinese
+\section{教育经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {清华大学}{2017.9 -- 2021.6}
+      {本科-信息学院-自动化专业}{中国，北京}
+      \resumeItemListStart
+        \resumeItemWithoutColon
+          {\textbf{GPA}: 3.81/4.00 (专业排名10\%)}
+        \resumeItemWithoutColon
+          {具有\textbf{较强的数理基础}，在微积分A、线性代数、概率论、数值分析、复变函数等课程中均取得A或A+的成绩。}
+        \resumeItemWithoutColon
+          {具有\textbf{较强的编程能力}，在程序设计(C++, python)、数据结构、人工智能导论等课程中均取得A或A+的成绩。}
+        \resumeItemWithoutColon
+          {辅修软件学院的\textbf{数据科学技术专业}，主要课程包括数据库技术、机器学习、深度学习、信息检索技术等。}
+      \resumeItemListEnd
+    \resumeSubheading
+      {清华大学}{2021.9 -- 2024.6}
+      {硕士-信息学院-自动化-脑与认知科学研究所}{中国，北京}
+      \resumeItemListStart
+        \resumeItem{主要研究方向}
+          {零知识证明对机器学习模型完整性的验证(Zero Knowledge Proof for Machine Learning, ZKML)。}
+        \resumeItem{其他已发表论文}
+          {CVPR 2022 二作论文 \href{https://www.researchgate.net/publication/359156581_Back_to_Reality_Weakly-supervised_3D_Object_Detection_with_Shape-guided_Label_Enhancement}{Back To Reality}（附\href{https://github.com/wyf-ACCEPT/BackToReality}{代码Github链接}）。}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\else
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {清华大学}{中国，北京}
+      {本科-信息学院-自动化专业}{Aug. 2017 -- Dec. 2013}
+    \resumeSubheading
+      {Birla Institute of Technology and Science}{Pilani, India}
+      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+  \resumeSubHeadingListEnd
+\fi
+
+
+%--------PROGRAMMING SKILLS------------
+
+\ifchinese
+\section{获奖经历与专业技能}
+ \resumeSubHeadingListStart
+   \resumeSubheadingTwo
+    {获奖经历与证书}{2017.9 -- 2021.6}
+      \resumeItemListStart
+        \resumeItemWithoutColon{先后获得“\textbf{清华之友——恒大奖学金}”, “\textbf{清华之友——潍柴动力奖学金}（综合奖学金）”。}
+        \resumeItemWithoutColon{先后获得清华大学数学系举办的第 13 届和第 14 届数学基础大赛\textbf{非数学组特等奖（第一名）}。}
+        \resumeItemWithoutColon{本科毕业学士学位论文《芯片生产中的半监督虚拟测量算法研究》获得\textbf{本科生优秀毕业论文奖项}。}
+        \resumeItem{英语技能}{CET6 通过。}
+      \resumeItemListEnd
+   \resumeSubheadingTwo
+    {专业技能 - 互联网相关}{2019.9 -- 至今}
+      \resumeItemListStart
+        \resumeItem{精通 python 语言}{熟练实现爬虫、数据分析与清洗、机器学习和深度学习相关算法；熟悉数据科学相关库的使用。}
+        \resumeItem{熟悉常见开发语言}{能够使用 C++、NodeJS、Rust 解决各类算法问题，有良好的代码习惯，代码风格简洁清晰。}
+        \resumeItem{掌握高效开发工具}{熟练使用 Linux 命令及 Git 工具管理代码；熟练使用 ChatGPT 4 相关 Prompt 技巧以提高效率。 }
+        \resumeItem{其他相关技能}{熟悉各类数据结构及算法，多次在 Leetcode 周赛中获得前 5\%排名；了解计算机网络协议及原理。}
+      \resumeItemListEnd
+   \resumeSubheadingTwo
+    {专业技能 - 区块链相关}{2021.1 -- 至今}
+      \resumeItemListStart
+        \resumeItem{熟悉区块链及 Web3}{了解区块链的底层工作原理，熟悉 Web3 市场中 Defi、Layer2、Bridges 相关经典项目。}
+        \resumeItem{掌握智能合约开发语言}{能够使用 Solidity, Rust, Move, TEAL 语言实现 EVM, Solana, Aptos/Sui, Algorand 等公链的合约开发，均有相关的大型项目开发经验。 }
+        \resumeItem{熟悉零知识证明原理}{熟悉经典零知识证明协议原理，熟悉密码学、抽象代数等底层数学工具的相关知识；能够使用 Circom 等工具编写零知识证明电路。}
+      \resumeItemListEnd
+ \resumeSubHeadingListEnd
+\else
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+     \hfill
+     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+   }
+ \resumeSubHeadingListEnd
+\fi
+
+
+
+
+%-----------EXPERIENCE-----------------
+\ifchinese
+\section{工作与实习经历}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {北京云集智造科技有限公司}{2020.9 -- 2021.10}
+      {算法实习生 - AI Operation Team}{北京}
+      \resumeItemListStart
+        \resumeItemWithoutColon{主要负责数据采集、服务器数据异常检测、日志分析异常检测等工作。}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {MSRA 微软亚洲研究院}{2022.9 -- 2022.12}
+      {Python 数据工程师 - Scientific Computing Team}{北京}
+      \resumeItemListStart
+        \resumeItemWithoutColon{协助建立用于计算蛋白质分子结构的 DFT（密度泛函理论）算法，熟悉大型公司的工作流程及模式。}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {新地曜石网络科技有限公司}{2021.11 -- 2023.8}
+         {智能合约开发工程师}{深圳/远程}
+      \resumeItemListStart
+        \resumeItemWithoutColon{\textbf{完全独立开发}跨链桥产品 \href{https://meson.fi/zh}{MesonFi} 在各个公链上的智能合约，包括 \href{https://github.com/wyf-ACCEPT/meson-contract-algorand}{Algorand合约}、\href{https://github.com/MesonFi/meson-contracts-aptos}{Aptos合约}、\href{https://github.com/wyf-ACCEPT/meson-contracts-sui}{Sui合约}和 \href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solana-Rust合约}。}
+        \resumeItemWithoutColon{\textbf{辅助开发} MesonFi 在 EVM 公链上的 \href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solidity} 智能合约，目前产品已支持 10+ 个 EVM 公链。}
+      \resumeItemListEnd
+     
+      \resumeSubSubheading{数据分析师}{深圳/远程}
+        \resumeItemListStart
+          \resumeItemWithoutColon{在 Dune、\href{https://www.footprint.network/@planD/Try-2\#type=dashboard}{Footprint}、\href{https://app.sentio.xyz/meson/cross-chain-bridges/dashboards/Isf1Eyp4}{Sentio} 等数据分析工具上，使用 SQL 构建跨链桥的数据分析图表，以及进行其他链上数据分析。}
+          \resumeItemWithoutColon{在 \href{https://mirror.xyz/0xb54e978a34Af50228a3564662dB6005E9fB04f5a}{Mirror}, \href{https://medium.com/@mesonfi}{Mirror} 和 \href{https://www.techflowpost.com/article/detail_10075.html}{TechFlow} 等 Web3 媒体平台上撰写超过 5 篇投研或分析类的文章。}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Infinity Ventures Crypto}{2023.2 -- 至今}
+      {区块链研究员}{上海/远程}
+      \resumeItemListStart
+        \resumeItemWithoutColon{投研各个 Web3 子领域的种子轮项目，主要赛道涵盖包括 ZK-Layer2（基于零知识证明的以太坊二层网络）、LSD（以太坊质押衍生品）、Privacy（隐私公链或项目）、Infra（以太坊底层基础设施）等。独立产出 40+ 篇\href{https://www.notion.so/Research-75c9020d43a749f6b0be60e61af820dc?pvs=4}{投研分析报告}。}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\else
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Google}{Mountain View, CA}
+      {Software Engineer}{Oct 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{Tensorflow}
+          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+        \resumeItem{Apache Beam}
+          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Coursera}{Mountain View, CA}
+      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      \resumeItemListStart
+        \resumeItem{Notifications}
+          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
+        \resumeItem{Nostos}
+          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+        \resumeItem{Workflows}
+          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+        \resumeItem{Data Collection}
+          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
+        \resumeItem{Dev Environment}
+          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
+        \resumeItem{Data Warehousing}
+          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
+        \resumeItem{Recommendations}
+          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
+        \resumeItem{Content Discovery}
+          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
+        \resumeItem{Course Dashboards}
+          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Lucena Research}{Atlanta, GA}
+      {Data Scientist}{Summer 2012 and 2013}
+      \resumeItemListStart
+        \resumeItem{Portfolio Management}
+          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+        \resumeItem{QuantDesk}
+          {Python backend for a web application used by hedge fund managers for portfolio management.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+      \resumeItemListStart
+        \resumeItem{Research Assistant - Machine Learning}
+          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
+        \resumeItem{Teaching Assistant - Computational Investing}
+          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\fi
+
+
+
+
+
+%-----------EXPERIENCE 2-----------------
+\ifchinese
+\section{社团与组织经历}
+  \resumeSubHeadingListStart
+  
+   \resumeSubheading
+    {自动化本科团委}{2019.9 -- 2020.8}
+    {班级团支书}{北京}
+      \resumeItemListStart
+        \resumeItemWithoutColon{在大学本科班级中担任班级团支书职位，负责定期组织班级活动，增强班级同学的凝聚力。}
+      \resumeItemListEnd
+    
+   \resumeSubheading
+    {壹桌计划}{2020.3 -- 2020.9}
+    {技术组组长}{线上}
+      \resumeItemListStart
+        \resumeItemWithoutColon{“壹桌计划”是 2020年 3月成立的志愿组织，旨在为疫情中的湖北学生提供 线上一对一 的学习辅导。我和其他技术组成员通过志愿者和学生两端的需求共同开发了一套匹配算法，成功\textbf{匹配1000+名学生和志愿者}。}
+      \resumeItemListEnd
+    
+   \resumeSubheading
+    {WTF Academy}{2022.6 -- 2022.9}
+    {核心开发成员}{线上}
+      \resumeItemListStart
+        \resumeItemWithoutColon{\href{https://www.wtf.academy/}{WTF Academy} 是一个面向开发者的开源学院，旗下项目 \href{https://github.com/AmazingAng/WTF-Solidity{WTF Solidity} 在 Github 拥有 8K+ Star。作为 WTF Academy核心成员，我参与了部分 Solidity 教程及测试题的开发。}
+      \resumeItemListEnd
+
+\else
+
+\section{社团与组织经历}
+  \resumeSubHeadingListStart
+  
+   \resumeSubheading
+    {自动化本科团委}{2019.9 -- 2020.8}
+    {班级团支书}{北京}
+      \resumeItemListStart
+        \resumeItemWithoutColon{在大学本科班级中担任班级团支书职位，负责定期组织班级活动，增强班级同学的凝聚力。}
+      \resumeItemListEnd
+    
+   \resumeSubheading
+    {壹桌计划}{2020.3 -- 2020.9}
+    {技术组组长}{线上}
+      \resumeItemListStart
+        \resumeItemWithoutColon{“壹桌计划”是 2020年 3月成立的志愿组织，旨在为疫情中的湖北学生提供 线上一对一 的学习辅导。我和其他技术组成员通过志愿者和学生两端的需求共同开发了一套匹配算法，成功\textbf{匹配1000+名学生和志愿者}。}
+      \resumeItemListEnd
+    
+   \resumeSubheading
+    {WTF Academy}{2022.6 -- 2022.9}
+    {核心开发成员}{线上}
+      \resumeItemListStart
+        \resumeItemWithoutColon{\href{https://www.wtf.academy/}{WTF Academy}是一个面向开发者的开源学院，旗下项目\href{https://github.com/AmazingAng/WTF-Solidity}{WTF Solidity} 在 Github 拥有 8K+ Star。作为 WTF Academy核心成员，我参与了部分 Solidity 教程及测试题的开发。}
+      \resumeItemListEnd
+   
+\fi
+
+
+
+
+%-------------------------------------------
+\end{document}
