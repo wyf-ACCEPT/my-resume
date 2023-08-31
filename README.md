@@ -8,11 +8,14 @@ My English resume link is here: [YifanWang.pdf](./YifanWang_full_latest.pdf).
 
 ## 汪一帆的个人简历
 
+
 你好，这里是我的**个人简历**页面！我会及时将最新的个人经历更新到这个仓库中。这个项目借用了 [sb2nov/resume](https://github.com/sb2nov/resume) 作为模板。
 
 中文详细简历请参见：
 
-## [汪一帆.pdf](./汪一帆-full-latest.pdf)
+<h2 >
+  <a href="./汪一帆-full-latest.pdf">汪一帆.pdf</a>
+</h2>
 
 如果你认为它过于冗长，也可以在这里看看我的个人简介。
 
