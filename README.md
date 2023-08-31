@@ -13,9 +13,7 @@ My English resume link is here: [YifanWang.pdf](./YifanWang_full_latest.pdf).
 
 中文详细简历请参见：
 
-<h2 >
-  <a href="./汪一帆-full-latest.pdf">汪一帆.pdf</a>
-</h2>
+> [<h2 style="font-size:24px;">汪一帆.pdf<h2>](./汪一帆-full-latest.pdf)
 
 如果你认为它过于冗长，也可以在这里看看我的个人简介。
 
