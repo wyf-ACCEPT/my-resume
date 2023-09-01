@@ -8,7 +8,7 @@ Hi，这里是我的**个人简历**页面！我会及时将最新的个人经�
 
 ---
 
-## Personal Resume of Wang Yifan (PlanD)
+## Personal Resume of Yifan Wang (PlanD)
 
 Hello, welcome to my **personal resume** page! I will consistently update my latest personal experiences in this repository. This project is based on the template by [sb2nov/resume](https://github.com/sb2nov/resume).
 
