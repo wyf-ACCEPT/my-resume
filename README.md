@@ -55,3 +55,9 @@ I pursued both my undergraduate and graduate studies at Tsinghua University, spa
 - **Smart Contract Development**: Starting from mid-2022, my interest in smart contract development led me to learn Solidity, Move, Rust, and other contract-oriented programming languages. I **independently** developed four on-chain contracts for the cross-chain bridge [MesonFi](https://meson.fi/zh), including the [Algorand contract](https://github.com/wyf-ACCEPT/meson-contract-algorand), [Aptos contract](https://github.com/MesonFi/meson-contracts-aptos), [Sui contract](https://github.com/wyf-ACCEPT/meson-contracts-sui), and [Solana-Rust contract](https://github.com/wyf-ACCEPT/meson-contracts-solana). Throughout this journey, I gained extensive knowledge, dedicating **more than a year** (approximately from July 2022 to September 2023).
 
 - **ZKML**: I also contemplated how to integrate my prior data science knowledge with Web3. Fortunately, I discovered the field of Zero-Knowledge Machine Learning (ZKML), which focuses on using zero-knowledge proofs to validate the integrity of machine learning models. Consequently, I shifted my master's research topic to this field. This decision led me to study foundational mathematics in cryptography and abstract algebra, deeply engaging with the principles of ZK-Snark Groth16.
+
+---
+
+## Github Commit Heatmap
+
+![alt text](images/github-heatmap.png)
