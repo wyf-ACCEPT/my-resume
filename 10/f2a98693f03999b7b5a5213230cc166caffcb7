@@ -1,0 +1,30 @@
+my-resume-full.tex
+  s_dc7fb5b0c568be::t_123a4ecd684028 159
+  s_dc7fb5b0c568be::t_4c422cb8843ae8 192
+  s_dc7fb5b0c568be::t_49c049b9df3d0f 289
+  s_dc7fb5b0c568be::t_d2c448bbe46410 320
+  h_7140a1ee2047ef 147,178,207,209,217,239,309-310
+  s_dc7fb5b0c568be::t_2c607c95b69315 257,259
+  s_dc7fb5b0c568be::t_4981e50fb351ea 267
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.9",
+  "base_commit_sha": "10f2a98693f03999b7b5a5213230cc166caffcb7",
+  "prompts": {},
+  "humans": {
+    "h_7140a1ee2047ef": {
+      "author": "wyf-ACCEPT <importwyf@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_dc7fb5b0c568be": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "eb9551e0-3bb5-4e8e-920d-371a6e952eee",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "wyf-ACCEPT <importwyf@gmail.com>"
+    }
+  }
+}
