@@ -104,7 +104,7 @@
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newif\ifchinese
-% \chinesetrue
+\chinesetrue
 % \chinesefalse
 
 \ifchinese
@@ -173,10 +173,10 @@
    \resumeSubheadingTwo
     {核心技能}{}
       \resumeItemListStart
-        \resumeItem{AI 辅助开发}{\textbf{Claude Code 深度用户}（每日重度使用，深度集成进所有工程流程）；\textbf{精通 Vibe Coding}，习惯以 AI agent 高频迭代开发，能将自然语言意图快速转化为生产级代码。}
-        \resumeItem{编程语言}{精通 Rust、Python、Solidity、NodeJS/TypeScript；熟悉 C++、Move。}
-        \resumeItem{区块链 \& EVM 底层}{深入理解 EVM 内核（交易处理、并行执行、OCCDA 等并发控制算法）；熟悉 Bitcoin L2 架构、跨链桥设计与多公链合约开发。}
-        \resumeItem{其他}{熟悉经典 ZK-SNARK 协议（Groth16）及底层数学（数论、抽象代数）；Git、Linux 与云开发工具链熟练。}
+        \resumeItem{AI 辅助开发}{\textbf{Claude Code 深度用户}，深度集成进所有工程流程；\textbf{精通 Vibe Coding}，习惯以 AI agent 高频迭代开发，并进行 Memory \& Context 的架构管理。}
+        \resumeItem{编程语言}{精通 Rust、Python、Solidity、NodeJS/TypeScript；熟悉 C++ 和 Move 系合约开发语言。}
+        \resumeItem{区块链 \& EVM 底层}{深入理解 EVM 内核（交易处理、并行执行、OCCDA 等并发控制算法）；熟悉跨链桥设计、多公链合约开发。}
+        \resumeItem{其他}{熟悉经典 ZK-SNARK 协议（Groth16）及底层数学（数论、抽象代数）；熟悉 Git、Linux、 AWS 等开发工具链。}
       \resumeItemListEnd
  \resumeSubHeadingListEnd
 
@@ -187,10 +187,10 @@
    \resumeSubheadingTwo
     {Core Skills}{}
       \resumeItemListStart
-        \resumeItem{AI-Powered Development}{\textbf{Heavy daily Claude Code user}, deeply integrated into all engineering workflows; \textbf{expert in Vibe Coding}, fluent at translating natural-language intent into production code through high-throughput AI-agent loops.}
-        \resumeItem{Programming Languages}{Proficient in Rust, Python, Solidity, NodeJS/TypeScript; familiar with C++ and Move.}
-        \resumeItem{Blockchain \& EVM Internals}{Deep grasp of EVM internals (transaction processing, parallel execution, OCCDA-style concurrency control); experienced in Bitcoin L2 architecture, cross-chain bridges, and multi-chain contract development.}
-        \resumeItem{Other}{ZK-SNARK protocols (Groth16) and foundational math (number theory, abstract algebra); proficient with Git, Linux, and cloud development tooling.}
+        \resumeItem{AI-Powered Development}{\textbf{Heavy Claude Code user}, deeply integrated into all engineering workflows; \textbf{expert in Vibe Coding}, fluent at iterating with AI agents at high frequency and architecting Memory \& Context management.}
+        \resumeItem{Programming Languages}{Proficient in Rust, Python, Solidity, NodeJS/TypeScript; familiar with C++ and Move-family smart-contract languages.}
+        \resumeItem{Blockchain \& EVM Internals}{Deep grasp of EVM internals (transaction processing, parallel execution, OCCDA-style concurrency control); experienced in cross-chain bridge design and multi-chain contract development.}
+        \resumeItem{Other}{Classic ZK-SNARK protocols (Groth16) and foundational math (number theory, abstract algebra); proficient with Git, Linux, AWS, and related development tooling.}
       \resumeItemListEnd
  \resumeSubHeadingListEnd
 \fi
@@ -203,8 +203,15 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Tabula Labs}{2024.10 -- 至今}
+      {Tech Lead（正式）}{远程}
+      \resumeItemListStart
+        \resumeItemWithoutColon{Tabula 是聚焦 Web3 的研发工作室，承接外部团队的智能合约与基础设施外包开发，并为早期创业项目提供资源对接（技术人才、创始人、VC）服务。作为核心工程师，主导多个客户项目的架构设计与交付。}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Altius Labs}{2024.10 -- 2026.4}
-      {Tech Lead（实习/兼职）}{远程}
+      {Tech Lead（兼职）}{远程}
       \resumeItemListStart
         \resumeItemWithoutColon{主导基于 Paradigm 开源 RETH (Rust-eth) 框架的新一代\textbf{并行执行 EVM} 核心组件的架构与开发。}
         \resumeItemWithoutColon{重构 EVM 交易处理逻辑，实现 \textbf{OCCDA (Optimistic Concurrency Control with Deterministic Abort)} 算法以支持并行执行；交付完整的 benchmark 工具集量化架构优化带来的性能提升。}
@@ -214,12 +221,12 @@
       {Conflux Network}{2023.3 -- 2024.9}
       {Engineering Lead（实习/兼职）}{远程}
       \resumeItemListStart
-        \resumeItemWithoutColon{主导 Conflux \textbf{Bitcoin L2} 架构的设计与交付，结合 PoW/PoS 混合共识为 BTC 生态提供高性能、EVM 兼容的执行层。}
-        \resumeItemWithoutColon{主导 \textbf{Cross-Space Bridge} 的核心工程实现，通过 internal contracts 融合 EVM 兼容与 Core Space 原生能力，实现跨空间状态互通；构建统一资产互操作 SDK（BTC 资产、Ordinals、高频 DeFi 状态）。}
+        \resumeItemWithoutColon{主导 \textbf{Conflux Bitcoin L2} 架构的设计与交付，结合 PoW/PoS 混合共识为 BTC 生态提供高性能执行层。}
+        \resumeItemWithoutColon{主导 \textbf{Cross-Space Bridge} 的核心工程实现；独立完成跨链桥 \href{https://meson.fi/zh}{MesonFi} 在 \href{https://github.com/wyf-ACCEPT/meson-contract-algorand}{Algorand}、\href{https://github.com/MesonFi/meson-contracts-aptos}{Aptos}、\href{https://github.com/wyf-ACCEPT/meson-contracts-sui}{Sui}、\href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solana} 四条公链上的智能合约及对应 SDK。}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Infinity Ventures Crypto (IVC)}{2023.2 -- 2024.12}
+      {Infinity Ventures Crypto (IVC)}{2023.3 -- 2024.9}
       {区块链研究员（实习/兼职）}{远程}
       \resumeItemListStart
         \resumeItemWithoutColon{投研 Web3 各赛道种子轮项目（ZK-Layer2、LSD、Privacy、以太坊基础设施等），独立产出 \href{https://www.notion.so/Research-75c9020d43a749f6b0be60e61af820dc?pvs=4}{40+ 篇投研分析报告}。}
@@ -229,14 +236,7 @@
       {微软亚洲研究院 (MSRA)}{2022.3 -- 2023.3}
       {Python Engineer（实习/兼职） -- Scientific Computing Team}{北京 / 混合办公}
       \resumeItemListStart
-        \resumeItemWithoutColon{优化用于高精度蛋白质结构计算的 \textbf{DFT (密度泛函理论)} 算法；将复杂科学模型转化为高效 Python 实现并优化计算管线。}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {MesonFi (新地曜石)}{2022.1 -- 2023.1}
-      {智能合约开发工程师（实习/兼职）}{深圳 / 远程}
-      \resumeItemListStart
-        \resumeItemWithoutColon{\textbf{独立完成}跨链桥 \href{https://meson.fi/zh}{MesonFi} 在 \href{https://github.com/wyf-ACCEPT/meson-contract-algorand}{Algorand}、\href{https://github.com/MesonFi/meson-contracts-aptos}{Aptos}、\href{https://github.com/wyf-ACCEPT/meson-contracts-sui}{Sui}、\href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solana} 四条公链上的智能合约及对应 SDK。}
+        \resumeItemWithoutColon{优化用于高精度蛋白质结构计算的 DFT (密度泛函理论) 算法；将复杂科学模型转化为高效 Python 实现并优化计算管线。}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -253,8 +253,15 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Tabula Labs}{Oct 2024 -- Present}
+      {Tech Lead (Full-time)}{Remote}
+      \resumeItemListStart
+        \resumeItemWithoutColon{Tabula is a Web3-focused development studio that delivers smart contract and infrastructure outsourcing for external teams, while also connecting early-stage projects with technical talent, founders, and VCs. Serve as a core engineer driving architecture and delivery across multiple client engagements.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Altius Labs}{Oct 2024 -- Apr 2026}
-      {Tech Lead (Internship / Part-time)}{Remote}
+      {Tech Lead (Part-time)}{Remote}
       \resumeItemListStart
         \resumeItemWithoutColon{Led architecture and development of core components for a next-generation \textbf{parallel-execution EVM}, built on Paradigm's Rust-eth (RETH) foundation.}
         \resumeItemWithoutColon{Refactored EVM transaction processing logic to implement the \textbf{OCCDA (Optimistic Concurrency Control with Deterministic Abort)} algorithm, enabling parallel execution; delivered a comprehensive benchmark toolset quantifying the resulting performance gains.}
@@ -264,12 +271,12 @@
       {Conflux Network}{Mar 2023 -- Sep 2024}
       {Engineering Lead (Internship / Part-time)}{Remote}
       \resumeItemListStart
-        \resumeItemWithoutColon{Led design and delivery of Conflux's \textbf{Bitcoin L2 architecture}, leveraging hybrid PoW/PoS to bring a high-performance, EVM-compatible execution layer to the BTC ecosystem.}
-        \resumeItemWithoutColon{Led core engineering of the \textbf{Cross-Space Bridge}, fusing EVM compatibility with native Core Space via internal contracts for seamless state interop; built a unified asset interop SDK for BTC assets, Ordinals, and high-frequency DeFi state.}
+        \resumeItemWithoutColon{Led design and delivery of \textbf{Conflux Bitcoin L2 architecture}, leveraging hybrid PoW/PoS to bring a high-performance execution layer to the BTC ecosystem.}
+        \resumeItemWithoutColon{Led core engineering of the \textbf{Cross-Space Bridge}; independently developed cross-chain bridge \href{https://meson.fi/zh}{MesonFi} smart contracts and SDKs on \href{https://github.com/wyf-ACCEPT/meson-contract-algorand}{Algorand}, \href{https://github.com/MesonFi/meson-contracts-aptos}{Aptos}, \href{https://github.com/wyf-ACCEPT/meson-contracts-sui}{Sui}, and \href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solana}.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Infinity Ventures Crypto (IVC)}{Feb 2023 -- Dec 2024}
+      {Infinity Ventures Crypto (IVC)}{Mar 2023 -- Sep 2024}
       {Research Analyst (Internship / Part-time)}{Remote}
       \resumeItemListStart
         \resumeItemWithoutColon{Evaluated seed-stage Web3 projects across ZK-Layer2, LSD, Privacy, and Ethereum Infrastructure; independently produced 40+ \href{https://www.notion.so/Research-75c9020d43a749f6b0be60e61af820dc?pvs=4}{analytical reports}.}
@@ -279,14 +286,7 @@
       {Microsoft Research Asia (MSRA)}{Mar 2022 -- Mar 2023}
       {Python Engineer (Internship / Part-time) -- Scientific Computing Team}{Beijing / Hybrid}
       \resumeItemListStart
-        \resumeItemWithoutColon{Optimized \textbf{DFT (Density Functional Theory)} algorithms for high-precision protein structure computation; translated complex scientific models into efficient Python implementations and refined computational pipelines.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {MesonFi (Obsidian Labs)}{Jan 2022 -- Jan 2023}
-      {Smart Contract Developer (Internship / Part-time)}{Shenzhen / Remote}
-      \resumeItemListStart
-        \resumeItemWithoutColon{\textbf{Independently developed} cross-chain bridge smart contracts and SDKs for \href{https://meson.fi/zh}{MesonFi} on \href{https://github.com/wyf-ACCEPT/meson-contract-algorand}{Algorand}, \href{https://github.com/MesonFi/meson-contracts-aptos}{Aptos}, \href{https://github.com/wyf-ACCEPT/meson-contracts-sui}{Sui}, and \href{https://github.com/wyf-ACCEPT/meson-contracts-solana}{Solana}.}
+        \resumeItemWithoutColon{Optimized DFT (Density Functional Theory) algorithms for high-precision protein structure computation; translated complex scientific models into efficient Python implementations and refined computational pipelines.}
       \resumeItemListEnd
 
     \resumeSubheading
