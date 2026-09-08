@@ -1,0 +1,25 @@
+my-resume-full.tex
+  h_7140a1ee2047ef 148-149,178,207-208,210-212,217,225,232
+  s_b8fe1e7c655296::t_dc3242250098e7 233
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "c83bcbc298996c4ed920e1b47dfc12bc8a291ca7",
+  "prompts": {},
+  "humans": {
+    "h_7140a1ee2047ef": {
+      "author": "wyf-ACCEPT <importwyf@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b8fe1e7c655296": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2d37b363-dab4-42de-8cab-a2fdc54a9619",
+        "model": "unknown"
+      },
+      "human_author": "wyf-ACCEPT <importwyf@gmail.com>"
+    }
+  }
+}
